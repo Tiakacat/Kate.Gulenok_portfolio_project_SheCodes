@@ -17,20 +17,23 @@ h1 {
   font-size: 78px;
   margin-top: 20px;
   margin-bottom: 2px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 900;
 }
 
 h2 {
   color: black;
   opacity: 80%;
   font-size: 45px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
 }
 h4 {
   font-size: 30px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
 }
 
 :root {
-  --project-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  --project-font: "Dosis", sans-serif;
   --primary-color: #00455b;
   --secondary-color: hwb(305 82% 13%);
   --page-background: radial-gradient(
