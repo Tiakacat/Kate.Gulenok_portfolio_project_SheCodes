@@ -82,7 +82,9 @@ h4 {
   display: flex;
   justify-content: center;
 }
-
+.ava-image {
+  size: 50px;
+}
 .about-section a {
   border: 1px solid black;
   border-radius: 4px;
