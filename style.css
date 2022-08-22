@@ -1,9 +1,8 @@
 body {
-  background: var(--page-background);
+  background: white;
   margin: 0 auto;
   text-align: center;
   font: var(--project-font);
-  height: 1000px;
 }
 
 .container a {
@@ -15,10 +14,10 @@ body {
 h1 {
   color: var(--primary-color);
   font-size: 78px;
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: 2px;
   font-family: "Alumni Sans Pinstripe", sans-serif;
-  font-weight: 900;
+  font-weight: 1000;
 }
 
 h2 {
@@ -30,26 +29,18 @@ h2 {
 h4 {
   font-size: 30px;
   font-family: "Alumni Sans Pinstripe", sans-serif;
+  margin-bottom: 36px;
 }
 
 :root {
   --project-font: "Dosis", sans-serif;
   --primary-color: #00455b;
   --secondary-color: hwb(305 82% 13%);
-  --page-background: radial-gradient(
-    circle at 10% 20%,
-    rgb(0, 107, 141) 0%,
-    rgb(0, 69, 91) 90%
-  );
-}
-
-.portfolio {
-  margin: 22px;
-  height: 1000px;
+  --page-background: hsl(195, 76%, 84%);
 }
 
 .container {
-  margin: 70px auto;
+  margin: 15px auto;
   padding: 40px 50px;
   border-radius: 5px;
   box-shadow: hsla(185, 33%, 56%, 0.8) 0px 10px 10px 0;
@@ -98,7 +89,38 @@ h4 {
   font-family: var(--project-font);
   text-transform: capitalize;
 }
+.header {
+  margin-top: -20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 
+.header .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: end;
+}
+
+.introduction p {
+  font-family: var(--project-font);
+  text-align: left;
+}
+.header a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* a .text-muted:hover {
+  text-decoration-style: dotted;
+} */
 .about-text {
   display: flex;
   font-size: 16px;
@@ -135,6 +157,20 @@ h4 {
   font-weight: 15px;
 }
 
+.footer {
+  margin-top: 40px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.footer .fa-lg {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.fa-lg {
+  color: hwb(184 22% 52% / 0.8);
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 52px;
@@ -149,7 +185,14 @@ h4 {
     font-size: 24px;
     margin-bottom: 40px;
   }
+  .introduction img {
+    display: none;
+  }
 
+  .header .row {
+    display: flex;
+    justify-content: flex-start;
+  }
   .container {
     margin: -10px -2px;
     padding: 110px 70px;
@@ -160,11 +203,8 @@ h4 {
     width: 380px;
   }
 
-  .portfolio {
-    margin: -150px -20px 50px -20px;
-    padding: 260px 32px;
-    max-height: 700px;
-    max-width: 600px;
+  .header {
+    display: flex;
   }
   .about-text p {
     display: block;
@@ -215,11 +255,11 @@ h4 {
     width: 750px;
   }
 
-  .portfolio {
-    margin: -95px -20px 50px -12px;
-    padding: 260px 32px;
-    max-height: 1180px;
-    max-width: 800px;
+  .header {
+    margin-top: -20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
   }
 
   .page-wrap {
