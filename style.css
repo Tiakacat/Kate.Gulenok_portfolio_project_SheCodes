@@ -93,17 +93,27 @@ h4 {
   margin-top: -20px;
   padding: 10px;
   margin-bottom: 20px;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 .header .row {
+  margin-top: -20px;
+  padding: 10px;
+  margin-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.nav-link {
+.row .nav-link {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
+
+/* .header .row {
+  display: flex;
+  justify-content: space-between;
+} */
 
 .introduction p {
   font-family: var(--project-font);
@@ -175,7 +185,7 @@ h4 {
   h1 {
     font-size: 52px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     font-weight: bold;
   }
   h2 {
@@ -191,9 +201,23 @@ h4 {
 
   .header .row {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
-  .container {
+
+  .footer {
+    margin-top: -80px;
+    margin-bottom: -60px;
+  }
+  .footer .row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* .header .nav-link {
+    display: flex;
+    justify-content: flex-start;
+  } */
+  /* .container {
     margin: -10px -2px;
     padding: 110px 70px;
     max-width: 600px;
@@ -201,11 +225,11 @@ h4 {
   body {
     max-height: 1200px;
     width: 380px;
-  }
+  } */
 
-  .header {
+  /* .header {
     display: flex;
-  }
+  } */
   .about-text p {
     display: block;
   }
@@ -244,22 +268,19 @@ h4 {
 }
 
 @media (max-width: 900px) {
-  .container {
-    margin: -10px -2px;
+  /* .container {
+    margin: 5px 10px 20px 10px;
     padding: 110px 70px;
     /* max-width: 850px; */
-    height: 530px;
-  }
+  /* }
   body {
     height: 1290px;
-    width: 750px;
-  }
-
+    width: 900px;
+  } */
   .header {
     margin-top: -20px;
     padding: 10px;
     margin-bottom: 20px;
-    display: flex;
   }
 
   .page-wrap {
@@ -283,9 +304,10 @@ h4 {
   }
   h1 {
     margin-top: -30px;
+    margin-bottom: -40px;
   }
   h2 {
-    margin-top: 38px;
+    margin-top: -30px;
   }
   h4 {
     margin-bottom: 40px;
