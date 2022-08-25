@@ -76,17 +76,15 @@ h3 {
   display: flex;
 }
 
-.introduction p {
-  display: flex;
-  justify-content: space-between;
-}
 .about-section {
   text-align: left;
   font-family: var(--project-font);
   font-size: 17px;
   line-height: 1.5;
 }
-
+.about-text-skills {
+  display: flex;
+}
 .devicon-html5-plain {
   font-size: 2rem;
 }
