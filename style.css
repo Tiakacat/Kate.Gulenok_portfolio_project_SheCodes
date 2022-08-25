@@ -74,12 +74,28 @@ h4 {
 }
 /* .ava-image {
   size: 50px; */
-.devicon-html5-plain-wordmark
-  .devicon-css3-plain-wordmark
-  .devicon-javascript-plain
-  .devicon-vscode-plain
-  .devicon-react-original {
-  font-size: 3rem;
+.devicon-html5-plain-wordmark {
+  font-size: 2rem;
+}
+.devicon-css3-plain-wordmark {
+  font-size: 2rem;
+}
+.devicon-javascript-plain {
+  font-size: 2rem;
+}
+.devicon-vscode-plain {
+  font-size: 2rem;
+}
+
+.devicon-react-original {
+  font-size: 2rem;
+}
+
+.devicon-github-original {
+  font-size: 2rem;
+}
+.devicon-bootstrap-plain {
+  font-size: 2rem;
 }
 .about-section a {
   border: 1px solid black;
