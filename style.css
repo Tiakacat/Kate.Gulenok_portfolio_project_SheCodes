@@ -75,6 +75,11 @@ h3 {
 .introduction {
   display: flex;
 }
+
+.introduction p {
+  display: flex;
+  justify-content: space-between;
+}
 .about-section {
   text-align: left;
   font-family: var(--project-font);
