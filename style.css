@@ -32,6 +32,11 @@ h4 {
   margin-bottom: 36px;
 }
 
+h3 {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  text-align: center;
+}
+
 :root {
   --project-font: "Dosis", sans-serif;
   --primary-color: #00455b;
@@ -67,17 +72,20 @@ h4 {
 .about-button:hover {
   color: rgb(120, 67, 108);
 }
-
-.about-section {
+.introduction {
   display: flex;
-  justify-content: center;
 }
-/* .ava-image {
-  size: 50px; */
-.devicon-html5-plain-wordmark {
+.about-section {
+  text-align: left;
+  font-family: var(--project-font);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.devicon-html5-plain {
   font-size: 2rem;
 }
-.devicon-css3-plain-wordmark {
+.devicon-css3-plain {
   font-size: 2rem;
 }
 .devicon-javascript-plain {
@@ -222,9 +230,9 @@ h4 {
     margin: 0 auto;
   }
 
-  .introduction img {
+  /* .introduction img {
     display: none;
-  }
+  } */
 
   .header .row {
     display: flex;
