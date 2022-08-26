@@ -56,10 +56,6 @@ h3 {
   );
 }
 
-.page-wrap {
-  margin-bottom: 20px;
-  height: 1000px;
-}
 .about-button {
   background: rgb(169, 115, 151);
 }
@@ -100,6 +96,14 @@ h3 {
 
 .row .certificates-link:hover {
   text-decoration: underline;
+}
+
+.container .certificates_header {
+  text-align: center;
+  font-weight: 600;
+  font: var(--project-font);
+  color: #6c757d !important;
+  font-size: 20px;
 }
 
 .about-me-text {
@@ -248,22 +252,22 @@ h3 {
   }
   h4 {
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .container {
     margin: 0 auto;
   }
 
-  /* .introduction img {
-    display: none;
-  } */
-
   .header .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 0 -65px;
   }
-
+  .container .about-me-text .mb-1 {
+    margin-top: 10px;
+  }
   .footer {
     margin-top: -80px;
     margin-bottom: -60px;
@@ -302,16 +306,6 @@ h3 {
     font-size: 25px;
   }
 
-  .page-wrap {
-    margin: 80px -8px;
-    padding: 10px 20px;
-  }
-  .page-wrap h1 {
-    margin: -60px 10px 25px 20px;
-  }
-  .page-wrap h4 {
-    margin: -10px 10px 25px 14px;
-  }
   #contact a {
     margin: 0 10px 10px -36px;
   }
@@ -328,16 +322,17 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  /* .container {
-    margin: 5px 10px 20px 10px;
-    padding: 110px 70px;
-    /* max-width: 850px; */
-  /* }
-  body {
-    height: 1290px;
-    width: 900px;
-  } */
-
+  h1 {
+    margin-top: -30px;
+    margin-bottom: -40px;
+  }
+  h2 {
+    margin-top: -30px;
+  }
+  h4 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
   .container {
     max-width: 850px;
   }
@@ -345,15 +340,6 @@ h3 {
     margin-top: -20px;
     padding: 10px;
     margin-bottom: 20px;
-  }
-
-  .page-wrap {
-    margin: 80px -25px 10px 0px;
-    padding: 10px 20px;
-  }
-
-  .page-wrap .container {
-    height: 850px;
   }
 
   .about-text p {
@@ -365,17 +351,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin: 20px -44px 10px -44px;
-  }
-  h1 {
-    margin-top: -30px;
-    margin-bottom: -40px;
-  }
-  h2 {
-    margin-top: -30px;
-  }
-  h4 {
-    margin-bottom: 40px;
-    margin-top: 40px;
   }
 
   .row {
