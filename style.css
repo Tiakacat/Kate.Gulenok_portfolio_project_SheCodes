@@ -5,12 +5,6 @@ body {
   font: var(--project-font);
 }
 
-.container a {
-  text-decoration: none;
-  color: rgb(120, 67, 108);
-  font-size: 16px;
-  margin: 10px 5px 3px 5px;
-}
 h1 {
   color: var(--primary-color);
   font-size: 78px;
@@ -56,18 +50,13 @@ h3 {
   );
 }
 
-.about-button {
-  background: rgb(169, 115, 151);
-}
-.contact-button {
-  background: rgb(120, 67, 108);
-}
-.contact-button:hover {
-  color: rgb(169, 115, 151);
-}
-.about-button:hover {
+.container a {
+  text-decoration: none;
   color: rgb(120, 67, 108);
+  font-size: 16px;
+  margin: 10px 5px 3px 5px;
 }
+
 .introduction {
   display: flex;
 }
@@ -169,11 +158,6 @@ h3 {
   justify-content: flex-end;
 }
 
-/* .header .row {
-  display: flex;
-  justify-content: space-between;
-} */
-
 .introduction p {
   font-family: var(--project-font);
   text-align: left;
@@ -186,25 +170,6 @@ h3 {
 .header a:hover {
   text-decoration: underline;
 }
-
-/* a .text-muted:hover {
-  text-decoration-style: dotted;
-} */
-/* .about-text {
-  display: flex;
-  font-size: 16px;
-  justify-content: space-evenly;
-  font-family: var(--project-font);
-  margin: -5px 0;
-}
-.about-text p {
-  border-radius: 3px;
-  background: var(--secondary-color);
-  margin: 10px;
-  padding: 20px;
-  flex: 1;
-  text-align: center;
-} */
 
 #contact {
   font-size: 25px;
@@ -226,10 +191,31 @@ h3 {
   font-weight: 15px;
 }
 
+.row .projects-links {
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: hwb(184 22% 52% / 0.8);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: 18px;
+  font-family: var(--project-font);
+  margin-top: 20px;
+}
+
+.row .works-text-left {
+  font-family: var(--project-font);
+  text-align: left;
+}
+
+.row .works-text-right {
+  font-family: var(--project-font);
+  text-align: left;
+}
+
 .footer {
   margin-top: 40px;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 .footer .fa-lg {
