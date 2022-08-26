@@ -82,8 +82,30 @@ h3 {
   font-size: 17px;
   line-height: 1.5;
 }
-.about-text-skills {
-  display: flex;
+
+.works-button .btn {
+  background: hwb(184 22% 52% / 0.8);
+  color: white;
+  line-height: 27px;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  font-family: var(--project-font);
+}
+
+.row .certificates-link {
+  font-weight: 600;
+  color: hwb(184 22% 52% / 0.8);
+  font-family: var(--project-font);
+}
+
+.row .certificates-link:hover {
+  text-decoration: underline;
+}
+
+.about-me-text {
+  color: hwb(184 22% 52% / 0.8);
+  font-size: 30px;
+  font-family: var(--project-font);
 }
 .devicon-html5-plain {
   font-size: 2rem;
