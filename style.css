@@ -179,10 +179,11 @@ h3 {
   margin-top: 20px;
 }
 #contact a {
-  color: rgb(120, 67, 108);
+  color: #727b7f;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 38px;
   margin: 10px 5px 5px 3px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
 }
 #contact a:hover {
   text-decoration: underline;
@@ -209,11 +210,15 @@ h3 {
 .row .works-text-left {
   font-family: var(--project-font);
   text-align: left;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .row .works-text-right {
   font-family: var(--project-font);
   text-align: left;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .footer {
