@@ -141,6 +141,10 @@ h3 {
   font-family: var(--project-font);
   text-transform: capitalize;
 }
+
+.logo {
+  display: inline;
+}
 .header {
   margin-top: -20px;
   padding: 10px;
@@ -172,7 +176,7 @@ h3 {
 }
 
 .header a:hover {
-  text-decoration: underline;
+  color: var(--primary-color) !important;
 }
 
 #contact a {
@@ -202,6 +206,7 @@ h3 {
   font-size: 18px;
   font-family: var(--project-font);
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .row .works-text-left {
@@ -223,12 +228,15 @@ h3 {
 }
 
 .footer .fa-lg {
-  margin-top: 40px;
   display: flex;
   justify-content: space-evenly;
-}
-.fa-lg {
   color: hwb(184 22% 52% / 0.8);
+  transition: all 100ms ease-in-out;
+  padding: 25px 40px;
+}
+
+.fa-lg:hover {
+  color: var(--primary-color);
 }
 @media (max-width: 576px) {
   h1 {
@@ -249,6 +257,8 @@ h3 {
 
   .container {
     margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .about-section {
