@@ -239,7 +239,7 @@ h3 {
 .fa-lg:hover {
   color: var(--primary-color);
 }
-@media (max-width: 576px) {
+@media (max-width: 601px) {
   h1 {
     font-size: 52px;
     text-align: center;
@@ -265,6 +265,7 @@ h3 {
   .about-section {
     margin-top: -30px;
     margin-bottom: -30px;
+    font-size: 14px;
   }
 
   .header .row {
@@ -304,7 +305,7 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   h1 {
     margin-top: -30px;
     margin-bottom: -40px;
@@ -324,26 +325,52 @@ h3 {
     padding: 10px;
     margin-bottom: 20px;
   }
+  .about-section {
+    font-size: 14px;
+  }
+}
+.about-text p {
+  margin: 20px 5px 20px 10px;
+  width: 750px;
+}
 
-  .about-text p {
-    margin: 20px 5px 20px 10px;
-    width: 750px;
-  }
+.about-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px -44px 10px -44px;
+}
 
-  .about-text {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px -44px 10px -44px;
-  }
+.row {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+#contact a {
+  margin: 0 20px 20px 15px;
+}
+#contact {
+  margin-top: 40px;
+}
 
-  .row {
-    margin-top: 40px;
-    margin-bottom: 50px;
+@media (max-width: 1024px) {
+  .about-section {
+    font-size: 16.5px;
   }
-  #contact a {
-    margin: 0 20px 20px 15px;
+}
+
+@media (max-width: 913px) {
+  .about-section {
+    font-size: 12px;
   }
-  #contact {
-    margin-top: 40px;
+}
+
+@media (min-width: 1400px) {
+  h3 {
+    font-size: 34px !important;
+  }
+  h4 {
+    font-size: 36px !important;
+  }
+  .about-section {
+    font-size: 23px;
   }
 }
