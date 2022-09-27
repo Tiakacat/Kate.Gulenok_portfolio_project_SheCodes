@@ -371,9 +371,6 @@ h3 {
 }
 
 @media (max-width: 913px) {
-  .about-section {
-    font-size: 12.5px !important;
-  }
   .certificates_page {
     font-size: 30px;
     margin: 10px 15px 15px 20px;
@@ -415,6 +412,17 @@ h3 {
 
 @media (max-width: 991px) {
   .about-section {
+    font-size: 12px !important;
+  }
+  img {
+    width: 100%;
+  }
+}
+@media (max-width: 589px) {
+  .about-section {
     font-size: 9.5px !important;
+  }
+  img {
+    width: 100%;
   }
 }
