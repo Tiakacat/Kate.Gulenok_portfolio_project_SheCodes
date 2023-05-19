@@ -84,6 +84,7 @@ h3 {
 
 .row .certificates-link {
   font-weight: 600;
+  margin-bottom: 10px;
   color: hwb(184 22% 52% / 0.8);
   font-family: var(--project-font);
 }
